@@ -3,7 +3,6 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const dotenv = require('dotenv')
 
-// load .env variables
 dotenv.config()
 
 const app = express()
@@ -11,11 +10,11 @@ const app = express()
 // middleware
 app.use(cors())
 app.use(express.json())
-
-// routes
+//routes
 app.use('/api/auth', require('./routes/auth'))
 app.use('/api/events', require('./routes/events'))
 app.use('/api/registrations', require('./routes/registrations'))
+app.use('/api/notifications', require('./routes/notifications'))
 
 // test route
 app.get('/', (req, res) => {
@@ -33,3 +32,5 @@ mongoose.connect(process.env.MONGO_URI)
   .catch((err) => {
     console.log('MongoDB connection error:', err)
   })
+
+  
