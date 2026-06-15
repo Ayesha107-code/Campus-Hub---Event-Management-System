@@ -4,6 +4,7 @@ import axios from '../api/axios'
 import { useAuth } from '../context/AuthContext'
 import styles from './EventDetails.module.css'
 
+
 const EventDetails = () => {
   const { id } = useParams()
   const navigate = useNavigate()

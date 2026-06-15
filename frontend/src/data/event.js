@@ -59,6 +59,7 @@ const events = [
     description: 'A night of drama and theatre performances by the campus drama society.',
     emoji: '🎭'
   },
+  
 ]
 
 export default events

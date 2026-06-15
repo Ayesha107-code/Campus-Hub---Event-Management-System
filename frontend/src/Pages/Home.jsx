@@ -4,6 +4,7 @@ import styles from './Home.module.css'
 import axios from '../api/axios'
 import { useAuth } from '../context/AuthContext'
 
+
 const categoryImages = {
   Tech: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80',
   Music: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&q=80',

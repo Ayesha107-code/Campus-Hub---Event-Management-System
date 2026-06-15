@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import styles from './Event.module.css'
 import axios from '../api/axios'
 
+
 const categories = ['All', 'Tech', 'Music', 'Sports', 'Art', 'Career', 'Culture']
 
 const Events = () => {

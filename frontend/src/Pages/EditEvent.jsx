@@ -4,6 +4,7 @@ import styles from './EditEvent.module.css'
 import axios from '../api/axios'
 import { useAuth } from '../context/AuthContext'
 
+
 const EditEvent = () => {
   const { id } = useParams()
   const navigate = useNavigate()

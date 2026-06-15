@@ -4,6 +4,7 @@ import styles from './MyRegistrations.module.css'
 import axios from '../api/axios'
 import { useAuth } from '../context/AuthContext'
 
+
 const MyRegistrations = () => {
   const navigate = useNavigate()
   const { token } = useAuth()

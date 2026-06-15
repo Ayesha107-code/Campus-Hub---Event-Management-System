@@ -112,7 +112,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media(max-width: 480px) {
   .form {
     width: 95%;
     padding: 24px 16px;

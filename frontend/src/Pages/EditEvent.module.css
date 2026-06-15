@@ -120,7 +120,7 @@
   font-family: inherit;
 }
 
-.textarea:focus {
+.textarea:focus{
   border-color: #7F77DD;
 }
 

@@ -14,8 +14,6 @@ import Footer from './Components/Footer'
 import {BrowserRouter , Route , Routes} from 'react-router-dom'
 
 
-
-
 const App = () => {
   return (
      <>

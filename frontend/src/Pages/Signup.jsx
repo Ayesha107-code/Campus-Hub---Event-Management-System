@@ -26,7 +26,7 @@ const Signup = () => {
       return
     }
 
-    try {
+    try{
       setLoading(true)
       const response = await axios.post('/auth/signup', {
         name, email, password, role

@@ -3,6 +3,7 @@ import styles from './Notifications.module.css'
 import axios from '../api/axios'
 import { useAuth } from '../context/AuthContext'
 
+
 const Notifications = () => {
   const { token } = useAuth()
   const [notifications, setNotifications] = useState([])

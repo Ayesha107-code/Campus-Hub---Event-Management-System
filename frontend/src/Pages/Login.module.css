@@ -86,8 +86,9 @@
   width: 100%;
   text-align: center;
 }
-/*  Responsive */
+/* Responsive */
 @media (max-width: 768px) {
+  
   .form {
     width: 90%;
     padding: 32px 24px;
